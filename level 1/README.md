@@ -5,5 +5,5 @@
 ✅: 완료
 
 |문제명|문제 링크|순은|나현|
-|------|---|---|---|
-|숫자 짝꿍|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128)||✍️|
+|:------:|:------:|:------:|:------:|
+|숫자 짝꿍|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128)||✅|
