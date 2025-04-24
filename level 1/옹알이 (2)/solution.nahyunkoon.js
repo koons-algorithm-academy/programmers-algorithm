@@ -8,9 +8,11 @@ function solution(babbling) {
                 break;
             }
                         
-            babbling[i] = babbling[i].replaceAll(words[j], "");
-                                    
-            if (babbling[i] === '') {
+            babbling[i] = babbling[i].replaceAll(words[j], "_");
+                        
+            const deduplicationUnderbar = [...new Set(babbling[i])];
+               
+            if (deduplicationUnderbar.length === 1 && deduplicationUnderbar[0] === '_') {
                 answer++;
                 break;
             }
