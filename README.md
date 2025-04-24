@@ -22,6 +22,14 @@
    | 하나의 파일 내에서 여러 알고리즘을 사용한 솔루션인 경우 | solution.알고리즘1-알고리즘2.작성자_이름.js | solution.bfs-dfs.sooneunkoon.js |
 
 ## 참여자
-<a href="https://github.com/koons-algorithm-academy/programmers-algorithm/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=koons-algorithm-academy/programmers-algorithm" />
+
+<a href="https://github.com/Hwangsooneun" target="_blank">
+<img src="https://github.com/Hwangsooneun.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="Hwangsooneun"/>
 </a>
+<a href="https://github.com/hyoni0817" target="_blank"  >
+<img src="https://github.com/hyoni0817.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="hyoni0817"/>
+</a>    
+<a href="https://github.com/gyull92" target="_blank">
+<img src="https://github.com/gyull92.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="gyull92"/>
+</a>
+
