@@ -18,3 +18,4 @@
 |가장 많이 받은 선물|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/258712" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 1번 / 붕대 감기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250137" target="_blank">링크</a>|✅|||
 |명예의 전당 (1)|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/138477" target="_blank">링크</a>||✅||
+|과일 장수|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/135808" target="_blank">링크</a>||✅||
