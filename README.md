@@ -23,13 +23,6 @@
 
 ## 참여자
 
-<a href="https://github.com/Hwangsooneun" target="_blank">
-<img src="https://github.com/Hwangsooneun.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="Hwangsooneun"/>
-</a>
-<a href="https://github.com/hyoni0817" target="_blank"  >
-<img src="https://github.com/hyoni0817.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="hyoni0817"/>
-</a>    
-<a href="https://github.com/gyull92" target="_blank">
-<img src="https://github.com/gyull92.png" width="60px;" style="border-radius: 50%; margin-right: 4px; border: 1px solid #ddd" alt="gyull92"/>
-</a>
+| [<img src="https://github.com/Hwangsooneun.png" width="100px;"  alt="Hwangsooneun"/><br /><sub><b>Hwangsooneun</b></sub>](https://github.com/Hwangsooneun) | [<img src="https://github.com/hyoni0817.png" width="100px;"  alt="hyoni0817"/><br /><sub><b>hyoni0817</b></sub>](https://github.com/hyoni0817) | [<img src="https://github.com/gyull92.png" width="100px;"  alt="gyull92"/><br /><sub><b>gyull92</b></sub>](https://github.com/gyull92) |
+| :---: | :---: | :---: |
 
