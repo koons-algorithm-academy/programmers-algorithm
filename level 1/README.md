@@ -11,7 +11,7 @@
 |성격 유형 검사하기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666" target="_blank">링크</a>|✅|✅||
 |햄버거 만들기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/133502" target="_blank">링크</a>|✅|||
 |삼총사|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/131705" target="_blank">링크</a>|✅|||
-|푸드 파이트 대회|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/134240" target="_blank">링크</a>|✅|||
+|푸드 파이트 대회|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/134240" target="_blank">링크</a>|✅|✅||
 |옹알이 (2)|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/133499" target="_blank">링크</a>|✅|✅||
 |콜라 문제|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/132267" target="_blank">링크</a>|✅|||
 |택배 상자 꺼내기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/389478" target="_blank">링크</a>|✅|||
