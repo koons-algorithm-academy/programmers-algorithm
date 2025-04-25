@@ -19,3 +19,4 @@
 |[PCCP 기출문제] 1번 / 붕대 감기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250137" target="_blank">링크</a>|✅|||
 |명예의 전당 (1)|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/138477" target="_blank">링크</a>|✅|✅||
 |과일 장수|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/135808" target="_blank">링크</a>|✅|✅||
+|달리기 경주|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/178871" target="_blank">링크</a>|✅|||
