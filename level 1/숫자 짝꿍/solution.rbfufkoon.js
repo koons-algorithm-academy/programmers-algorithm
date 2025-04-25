@@ -1,19 +1,35 @@
 function solution(X, Y) {
-    let result = '';
-
-    for (const a of X) {
-        if (Y.includes(a)) {
-            result += a;
-            Y = Y.replace(a, '');
+    xData = {'0':0, '1':0, '2':0, '3':0, '4':0,'5':0,'6':0,'7':0,'8':0,'9':0};
+    yData = {'0':0, '1':0, '2':0, '3':0, '4':0,'5':0,'6':0,'7':0,'8':0,'9':0};
+    
+    for(let i = 0; i < 10; i++) {
+        const regex = new RegExp(i, 'g');
+        const match = X.match(regex)
+        if(match) {
+            xData[i] =match.length
         }
     }
-
-    if (!result) return '-1';
     
-    if (/^0+$/.test(result)) return '0';
-    
-    if (result.length) {
-        result = [...result].sort((a, b) => b - a).join('');
+    for(let i = 0; i < 10; i++) {
+        const regex = new RegExp(i, 'g');
+        const match = Y.match(regex)
+        if(match) {
+            yData[i] =match.length
+        }
     }
-    return result
+    
+    result = [];
+    for(const a in xData) {
+        const mini = Math.min(xData[a], yData[a])
+        if(mini > 0) {
+            result = result.concat(a.repeat(mini).split(""))   
+        }
+    }
+    
+    if(result.length ) {
+        const sortResult = result.sort((a, b) => b - a).join("");
+        return /^0+$/.test(sortResult) ? "0" : sortResult;
+    } else {
+        return '-1'
+    }
 }
