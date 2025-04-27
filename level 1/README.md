@@ -22,3 +22,4 @@
 |달리기 경주|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/178871" target="_blank">링크</a>|✅|||
 |추억 점수|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/176963" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 1번 / 동영상 재생기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/340213" target="_blank">링크</a>|✅|||
+|공원 산책|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/172928" target="_blank">링크</a>|✅|||
