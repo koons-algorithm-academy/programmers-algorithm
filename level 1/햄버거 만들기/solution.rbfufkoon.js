@@ -18,6 +18,6 @@ function solution(ingredient) {
             }
         }
     }
-    
+
     return count;
 }
