@@ -22,7 +22,7 @@ function solution(n, q, ans) {
 
 const getCombinations = (nArr, selectCount) => {
     const result = []
-    if (selectCount === 1) return 
+    if (selectCount === 1) return nArr.map(el => [el])
     
     nArr.forEach((el, idx, origin) => {
         const back = origin.slice(idx + 1)
