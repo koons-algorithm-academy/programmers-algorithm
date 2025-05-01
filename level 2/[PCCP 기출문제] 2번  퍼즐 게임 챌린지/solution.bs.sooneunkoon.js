@@ -1,7 +1,7 @@
 function solution(diffs, times, limit) {
     var answer = 0;
     let minLev = 1
-    let maxLev = Math.max(...diffs)
+    let maxLev = [...diffs].sort((a, b) => b - a)[0]
     while (minLev <= maxLev) {
         const midLev = Math.floor((minLev + maxLev) / 2)
         if (solutionCheck(midLev, diffs, times, limit)) {
@@ -45,4 +45,5 @@ const solutionCheck = (lev, diffs, times, limit) => {
 /**
  * 달걀 떨어뜨리기 문제와 동일하게 품
  * 테스트 15부터 런타임 오류가 발생함
+ * Math.max는 인자가 100001이상 들어가게 되면 오류가 발생함.
  */
