@@ -2,28 +2,36 @@ function solution(land) {
     var answer = 0;
     const xLength = land[0].length
     const yLength = land.length
+    const extractMap = {}
     for (let x = 0; x < xLength; x++) {
         let extractCount = 0
+        const extractHistory = {}
         for (let y = 0; y < yLength; y++) {
             const cur = land[y][x]
-            if (extractableCheck(cur, x)) {
-                extractCount += extraction(land, x, [y, x])
+            if (extractableCheck(cur)) {
+                const key = Object.keys(extractMap).length + 1 + ''
+                extractHistory[key] = true
+                extractCount += extraction(land, [y, x], extractMap, key)
+            } else if (cur !== 0 && typeof cur === 'string' && !extractHistory[cur]) {
+                extractHistory[cur] = true
+                extractCount += extractMap[cur]
             }
         }
+
         answer = Math.max(answer, extractCount)
     }
+
     return answer;
 }
 
-const extractableCheck = (cur, x) => {
-    if (cur === 1 || (typeof cur === 'string' && cur !== String(x))) {
+const extractableCheck = (cur) => {
+    if (cur === 1) {
         return true
     }
     return false
 }
 
-const extraction = (land, x, start) => {
-    const stringX = x + ''
+const extraction = (land, start, extractMap, key) => {
     let result = 0;
     const maxX = land[0].length - 1
     const maxY = land.length - 1
@@ -32,23 +40,29 @@ const extraction = (land, x, start) => {
     const queue = [start]
     while (queue.length) {
         const [y, x] = queue.shift()
-        if (!extractableCheck(land[y][x], stringX)) {
+        if (!extractableCheck(land[y][x])) {
             continue
         }
         result++
-        land[y][x] = stringX
+        land[y][x] = key
         for (let i = 0; i < moveX.length; i++) {
             const nextX = x + moveX[i]
             const nextY = y + moveY[i]
-            if (nextX >= 0 && nextY >= 0 && nextX <= maxX && nextY <= maxY && extractableCheck(land[nextY][nextX], stringX)) {
+            if (nextX >= 0 && nextY >= 0 && nextX <= maxX && nextY <= maxY && extractableCheck(land[nextY][nextX])) {
                 queue.push([nextY, nextX])
             }
         }
     }
+    extractMap[key] = result
     return result
 }
 
 /**
  * 정확성 100%
  * 효율성 테스트 통과하지 못함
+ * 
+ * 이전코드는 땅을 탐색하며 석유를 몇덩이를 최대로 가져올 수 있는지 그떄그떄 bfs알고리즘으로 확인함
+ * 하지만 같은 석유그룹에 도달했을때 bfs알고리즘을 다시 순회하므로 비효율적임.
+ * 따라서 땅에 석유그룹을 string으로 마킹하고, 몇덩이인지 값을 extractMap 객체에 key - value로 담음
+ * 하지만 효율성 2, 3번 시간초과
  */
