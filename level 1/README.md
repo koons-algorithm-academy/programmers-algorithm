@@ -25,4 +25,4 @@
 |공원 산책|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/172928" target="_blank">링크</a>|✅|||
 |바탕화면 정리|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/161990" target="_blank">링크</a>|✅|||
 |둘만의 암호|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/155652" target="_blank">링크</a>||✅||
-|개인정보 수집 유효기간|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370" target="_blank">링크</a>||✅||
+|개인정보 수집 유효기간|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370" target="_blank">링크</a>|✅|✅||
