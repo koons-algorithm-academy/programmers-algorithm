@@ -12,4 +12,4 @@
 |비밀 코드 해독|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/388352" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 2번 / 퍼즐 게임 챌린지|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/340212" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 3번 / 충돌위험 찾기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/340211" target="_blank">링크</a>|✅|||
-|[PCCP 기출문제] 2번 / 석유 시추|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250136" target="_blank">링크</a>|✍️|||
+|[PCCP 기출문제] 2번 / 석유 시추|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250136" target="_blank">링크</a>|✅|||

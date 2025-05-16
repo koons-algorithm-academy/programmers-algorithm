@@ -3,13 +3,16 @@ function solution(land) {
     const xLength = land[0].length
     const yLength = land.length
     const extractMap = {}
+    let keyIdx = 1
     for (let x = 0; x < xLength; x++) {
         let extractCount = 0
         const extractHistory = {}
         for (let y = 0; y < yLength; y++) {
             const cur = land[y][x]
             if (extractableCheck(cur)) {
-                const key = Object.keys(extractMap).length + 1 + ''
+                // const key = Object.keys(extractMap).length + 1 + ''
+                const key = keyIdx + ''
+                keyIdx++
                 extractHistory[key] = true
                 extractCount += extraction(land, [y, x], extractMap, key)
             } else if (cur !== 0 && typeof cur === 'string' && !extractHistory[cur]) {
@@ -65,4 +68,7 @@ const extraction = (land, start, extractMap, key) => {
  * 하지만 같은 석유그룹에 도달했을때 bfs알고리즘을 다시 순회하므로 비효율적임.
  * 따라서 땅에 석유그룹을 string으로 마킹하고, 몇덩이인지 값을 extractMap 객체에 key - value로 담음
  * 하지만 효율성 2, 3번 시간초과
+ * 
+ * key를 생성시에 Object.keys(extractMap).length + 1 + '' 코드는 O(N)의 복잡도를 가지기 떄문에 효율성이 좋지 못했음.
+ * keyIdx값을 카운팅하며 key를 생성해주도록 변경. 
  */
