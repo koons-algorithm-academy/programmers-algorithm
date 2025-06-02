@@ -28,3 +28,4 @@
 |개인정보 수집 유효기간|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370" target="_blank">링크</a>|✅|✅|✅|
 |신고 결과 받기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/92334" target="_blank">링크</a>|✅|✅||
 |대충 만든 자판|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/160586" target="_blank">링크</a>|✅|✅||
+|크레인 인형뽑기 게임|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/64061" target="_blank">링크</a>||✅||
