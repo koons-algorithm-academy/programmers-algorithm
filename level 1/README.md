@@ -30,3 +30,4 @@
 |대충 만든 자판|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/160586" target="_blank">링크</a>|✅|✅||
 |크레인 인형뽑기 게임|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/64061" target="_blank">링크</a>||✅||
 |[1차] 비밀지도|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/17681" target="_blank">링크</a>||✅||
+|신규 아이디 추천|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/72410" target="_blank">링크</a>||✅||
