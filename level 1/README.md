@@ -34,3 +34,4 @@
 |[카카오 인턴] 키패드 누르기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/67256" target="_blank">링크</a>||✅||
 |덧칠하기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/161989" target="_blank">링크</a>||✅||
 |예산|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12982" target="_blank">링크</a>||✅||
+|소수 찾기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12921" target="_blank">링크</a>||✅||
