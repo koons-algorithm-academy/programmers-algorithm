@@ -1,4 +1,34 @@
-function solution(n, w, num) {
+function successSolution(n, w, num) {
+    let boxCount = 0;
+    const currentNumLine = Math.ceil(num / w);
+    let currentNumIndex = Math.ceil(num / w) % 2 === 0 ? currentNumLine * w - num : w - (currentNumLine * w - num);
+    const totalLine = Math.ceil(n / w);
+    
+    if (totalLine % 2 === 0) {
+        if (totalLine * w - n <= currentNumIndex && currentNumIndex <= w) {
+            boxCount++;
+        }
+    } else {
+        if (0 <= currentNumIndex && currentNumIndex <= Math.abs(totalLine * w - n - w)) {
+            boxCount++;
+        }
+    }
+        
+    boxCount += totalLine - currentNumLine;
+
+    return boxCount;
+}
+
+/** 문제 풀이
+ * 1. 입력받은 숫자가 몇 번째 줄에 위치하는지 확인
+ * 2. num이 line에서 몇 번째에 위치했는지 확인
+ * 3. 마지막 줄에서 2에서 구한 값의 위치에 상자가 있는지 확인하고, 만약 존재한다면 상자 개수를 증가시킴
+ *    - 마지막 줄이 짝수 라인이면 오른쪽에서 왼쪽으로 상자가 쌓이기 때문에 totalLine * w - n <= currentNumIndex && currentNumIndex <= w 조건을 만족해야 함.
+ *    - 마지막 줄이 홀수 라인이면 왼쪽에서 오른쪽으로 상자가 쌓이기 때문에 0 <= currentNumIndex && currentNumIndex <= Math.abs(totalLine * w - n - w) 조건을 만족해야 함.
+ * 4. 꺼내야하는 상자 총 개수(총 줄 수 - 현재 줄 수 + 마지막 줄에 있는 상자 수)를 반환함.
+ */
+
+function failSolution(n, w, num) {
     let answer = 0;
     const totalLine = Math.ceil(n/w);
     let remainBox = n % w;
