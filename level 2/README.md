@@ -14,3 +14,4 @@
 |[PCCP 기출문제] 3번 / 충돌위험 찾기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/340211" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 2번 / 석유 시추|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250136" target="_blank">링크</a>|✅|||
 |[PCCP 기출문제] 3번 / 아날로그 시계|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/250135" target="_blank">링크</a>|✍️|||
+|최솟값 만들기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12941" target="_blank">링크</a>||✅||
