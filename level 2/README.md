@@ -17,3 +17,4 @@
 |최솟값 만들기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12941" target="_blank">링크</a>||✅||
 |JadenCase 문자열 만들기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12951" target="_blank">링크</a>||✅||
 |이진 변환 반복하기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/70129" target="_blank">링크</a>||✅||
+|짝지어 제거하기|<a href="https://school.programmers.co.kr/learn/courses/30/lessons/12973" target="_blank">링크</a>||✍️||
